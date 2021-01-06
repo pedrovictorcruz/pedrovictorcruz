@@ -1,12 +1,14 @@
 - name: GitHub metrics as SVG image
   uses: lowlighter/metrics@latest
-
-- uses: lowlighter/metrics@latest
+  
+- name: GitHub metrics as SVG image
+  uses: lowlighter/metrics@latest
   with:
     plugin_isocalendar: yes
     plugin_isocalendar_duration: full-year
-    
-- uses: lowlighter/metrics@latest
+  
+- name: GitHub metrics as SVG image
+  uses: lowlighter/metrics@latest
   with:
     # ... other options
     plugin_habits: yes
